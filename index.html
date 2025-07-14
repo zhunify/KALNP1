@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>KALNP1 Kalkulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>KALKULATOR KENAIKAN PANGKAT - KALNP1</h1>
+  <form>
+    <label for="ic">No. Kad Pengenalan (D4):</label>
+    <input type="text" id="ic"><br><br>
+
+    <label>Markah Prestasi (E10):</label>
+    <input type="number" id="e10"><br>
+    <label>Markah Prestasi (E12):</label>
+    <input type="number" id="e12"><br>
+    <label>Markah Prestasi (E14):</label>
+    <input type="number" id="e14"><br><br>
+
+    <label>Markah Potensi (G34 - max 20):</label>
+    <input type="number" id="g34" max="20"><br>
+    <label>Markah Potensi (M34 - max 30):</label>
+    <input type="number" id="m34" max="30"><br>
+    <label>Markah Potensi (H45 - max 25):</label>
+    <input type="number" id="h45" max="25"><br><br>
+
+    <button type="button" onclick="kira()">Kira</button>
+  </form>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
